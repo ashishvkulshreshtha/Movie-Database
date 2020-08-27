@@ -27,3 +27,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(api_urlpatterns)),
 ]
+
+admin.site.site_header = 'Movie Portal administration'
+admin.site.site_title = 'Movie Portal Backend admin'
+admin.site.index_title = 'Backend Administration'
